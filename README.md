@@ -24,5 +24,8 @@
 git clone https://github.com/Joe-Naz01/llm_basics.git
 cd llm_basics
 
+conda env create -f environment.yml
+conda activate llm_basics
+
 pip install -r requirements.txt
 jupyter notebook
