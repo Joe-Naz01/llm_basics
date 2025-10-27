@@ -1,0 +1,21 @@
+
+---
+
+## 🧾 environment.yml  (Conda)
+```yaml
+name: llm_basics
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - jupyter
+  - numpy>=1.26
+  - pandas>=2.0
+  - matplotlib>=3.8
+  - pip
+  - pip:
+      - transformers>=4.42
+      - accelerate>=0.30
+      - sentencepiece>=0.2
+      - huggingface-hub>=0.23
+      - llama-cpp-python>=0.2.90   # if using local LLMs
